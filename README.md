@@ -14,7 +14,7 @@ To solve for the problem of using the least amount of trips, I used a slightly m
 
 So we will iterate through a list beginning with all the locations. -- see method CalculateDeliveries(Squad squad, Delivery delivery)
 
-In each location iteration, I will run the knapsack for each drone, and select the solution that returns me the highest amount of trips.
+In each location iteration, I will run the knapsack for each drone, and select the solution that returns me the highest amount of locations.
 
 In the end of each iteration, I will remove the locations selected by the drone from the iterating locations list.
 
